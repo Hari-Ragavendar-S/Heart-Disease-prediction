@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, send_file
 import numpy as np
 import joblib
 from fpdf import FPDF
-import os
 
 app = Flask(__name__)
 model = joblib.load("model.pkl")
@@ -21,7 +20,7 @@ def predict():
     prediction = model.predict([np.array(features)])
     result = 'likely to have a heart condition.' if prediction[0] == 1 else 'unlikely to have a heart condition.'
 
-    # Generate PDF
+   
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font("Arial", size=14)
