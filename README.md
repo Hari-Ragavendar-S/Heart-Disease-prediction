@@ -116,5 +116,4 @@ Hari Ragavendar S
 
 If helpful, ⭐ star this repo to support my work.  
 
-If you want, I can also make a **version under 200 lines with badges and a screenshot preview** — perfect for a GitHub portfolio page. Do you want me to do that?
-```
+
