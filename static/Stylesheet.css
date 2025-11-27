@@ -1,5 +1,7 @@
 
-:root {
+*{
+    background-attachment: fixed;
+}:root {
     --primary: #dc3545;
     --primary-dark: #bb2d3b;
     --primary-light: #f8d7da;
